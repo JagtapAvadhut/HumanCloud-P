@@ -11,8 +11,18 @@ public class p9 {
         // """()[]{}""	"	TRUE
 //			"""(]""	"	FALSE
 
-        System.out.println(isValid("()[]{}"));  // TRUE
-        System.out.println(isValid("(]"));      // FALSE
+//        System.out.println(isValid("()[]{}"));  // TRUE
+//        System.out.println(isValid("(]"));      // FALSE
+
+//        Character c1 = new Character('A');
+//        Character c2 = new Character('A');
+        Character c1 = 'a';
+        Character c2 = 'a';
+        System.out.println(c1==c2);
+        System.out.println(c1);
+        System.out.println(c2);
+
+
 
     }
 

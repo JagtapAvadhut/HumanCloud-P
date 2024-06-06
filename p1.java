@@ -23,8 +23,8 @@ public class p1 {
             map.put(Character.valueOf(a), map.getOrDefault(Character.valueOf(a), 0) + 1);
         }
 
-        final var entry = map.entrySet().stream().min(Map.Entry.comparingByValue()).get();
-        System.out.println(entry);
+//        final var entry = map.entrySet().stream().min(Map.Entry.comparingByValue()).get();
+//        System.out.println(entry);
 //                max += entry.getValue();
 //                r= entry.getKey();
 //            }
